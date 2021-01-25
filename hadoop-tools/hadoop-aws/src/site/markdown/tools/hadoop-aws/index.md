@@ -53,7 +53,7 @@ applications to easily use this support.
 
 To include the S3A client in Apache Hadoop's default classpath:
 
-1. Make sure that`HADOOP_OPTIONAL_TOOLS` in `hadoop-env.sh` includes `hadoop-aws`
+1. Make sure that `HADOOP_OPTIONAL_TOOLS` in `hadoop-env.sh` includes `hadoop-aws`
 in its list of optional modules to add in the classpath.
 
 1. For client side interaction, you can declare that relevant JARs must be loaded
